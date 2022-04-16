@@ -1,0 +1,24 @@
+{
+  "name": "typescript-cheat-sheet",
+  "version": "1.0.0",
+  "description": "My personal javascrip cheat sheet",
+  "main": "index.js",
+  "scripts": {
+    "type-check": "tsc --noEmit",
+    "transpile": "tsc --outDir dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lacour-vincent/typescript-cheat-sheet.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lacour-vincent/typescript-cheat-sheet/issues"
+  },
+  "homepage": "https://github.com/lacour-vincent/typescript-cheat-sheet#readme",
+  "devDependencies": {
+    "typescript": "^4.6.3"
+  }
+}
