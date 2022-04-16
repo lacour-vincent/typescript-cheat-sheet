@@ -11,3 +11,7 @@ type Union = {
     [K2 in K]: Fruits[K];
   };
 }[keyof Fruits];
+
+const apple: Union = { apple: 1 };
+const pear: Union = { pear: "2" };
+const banana: Union = { banana: true };
