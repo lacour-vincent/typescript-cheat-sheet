@@ -9,3 +9,5 @@ type EntityWithId = {
 const user: EntityWithId = { type: "user", userId: "user-id" };
 const post: EntityWithId = { type: "post", postId: "post-id" };
 const comment: EntityWithId = { type: "comment", commentId: "comment-id" };
+
+export {};
